@@ -1,0 +1,81 @@
+
+/*Quicksearch CSS*/
+#quicksearch{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:block;
+    font-weight:bold
+}
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    margin-top: 20px;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: .01;
+}
+
+#mainTileContainer{
+    margin-top: 3%;
+}
+
+.tileContainer{
+    height: 160px;
+    width: 30%;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 3%;
+    
+}
+
+.tileComponent1{
+    width:46%;
+    float:left;
+    height:100%;
+}
+
+.tileComponent1 > img{
+    width: 150px;
+    height: 100%
+}
+
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:22px;
+    margin-top: 18px;
+}
+
+.componentHeading{
+    color: #192f60;
+    font-size:25px;
+    font-weight: bold
+}
+
+.componentSubHeading{
+    color: gray;
+    font-size:18px;
+    line-height:1;
+}
+
+   
+.tileContainer:hover{
+    transform: scale(1.1)
+ }
+
+@keyframes moveBike {
+    0% {margin-left:10%}
+    20% {margin-left:40%}
+    60% {margin-left:65%}
+    80% {margin-left:95%}
+    100% {margin-left:0%}
+}
